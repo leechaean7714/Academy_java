@@ -1,0 +1,8 @@
+package com.onlyTest;
+
+public class Circle extends AreaImpl {
+
+	
+	
+
+}

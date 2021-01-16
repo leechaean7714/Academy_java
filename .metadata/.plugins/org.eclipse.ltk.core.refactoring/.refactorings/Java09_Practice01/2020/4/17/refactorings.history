@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;onlyTest.LeafYearT&apos; to &apos;onlyTest&apos;&#x0D;&#x0A;- Original project: &apos;Java09_Practice01&apos;&#x0D;&#x0A;- Original element: &apos;onlyTest.LeafYearT&apos;&#x0D;&#x0A;- Renamed element: &apos;onlyTest.onlyTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LeafYearT&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;onlyTest{LeafYearT.java[LeafYearT" matchStrategy="1" name="onlyTest" qualified="false" references="true" similarDeclarations="false" stamp="1587297139330" textual="false" version="1.0"/>
+</session>

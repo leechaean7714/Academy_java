@@ -1,0 +1,22 @@
+package com.onlyTest;
+
+public class Circle extends AreaImpl {
+	
+	
+	
+
+	@Override
+	public void print() {
+		
+	}
+
+	@Override
+	public void make() {
+		
+		
+	}
+
+	
+	
+
+}

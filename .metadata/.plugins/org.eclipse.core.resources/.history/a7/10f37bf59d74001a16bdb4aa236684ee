@@ -1,0 +1,30 @@
+package com.test01;
+
+public class prac {
+
+	// byte int short long
+
+	public static void main(String[] args) {
+		
+				
+		
+/*
+ */
+		
+		
+		
+		
+		char c03 = '1';
+		System.out.println(c03+1);
+		
+		int i05 = 66;
+		String s01=Integer.toString(i05);
+		System.out.println(s01);
+		String s02 = String.valueOf(i05);
+		System.out.println(s02);
+		System.out.println(s01+1);
+		System.out.println(s02+1);
+		
+	}
+
+}

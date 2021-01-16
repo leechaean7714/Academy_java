@@ -1,0 +1,39 @@
+package test04;
+
+import java.util.ArrayList;
+
+public class DotCom {
+
+	private ArrayList<String> locationCells;
+	private String name;
+
+	// int numOfHit = 0;
+
+	public void setLocationCells(ArrayList<String> locs) {
+		locationCells = locs;
+	}
+
+	public void setName(String n) {
+		name = n;
+	}
+
+	public String checkYourself(String userinput) {
+		String status = "miss";
+
+		int index = locationCells.indexOf(userinput);
+		if (index >= 0) {
+
+			locationCells.remove(index);
+			if (locationCells.isEmpty()) {
+
+				status = "kill";
+
+			} else {
+				status = "hit";
+			}
+
+		}
+
+		return status;
+	}
+}

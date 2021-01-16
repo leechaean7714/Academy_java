@@ -1,0 +1,34 @@
+package com.test01;
+
+public class onlyTest {
+
+	public static void main(String[] args) {
+		prn01();
+		prn02();
+		prn03();
+	}
+
+	public static void prn01() {
+
+		for (int i = 0; i < 10; i++) {
+			System.out.print(i);
+		}
+	}
+
+	public static void prn02() {
+
+		for (int k = 10; k > 0; k -= 2) {
+			System.out.print(k);
+		}
+	}
+
+	public static void prn03() {
+		
+		int i = 10;
+		while (i > 0) {
+			System.out.println(i);
+			i -= 2;
+		}
+	}
+
+}

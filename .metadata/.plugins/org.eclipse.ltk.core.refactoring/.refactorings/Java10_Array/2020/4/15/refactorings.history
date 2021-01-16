@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.test01.onlyTest&apos; to &apos;onlyTest_array&apos;&#x0D;&#x0A;- Original project: &apos;Java10_Array&apos;&#x0D;&#x0A;- Original element: &apos;com.test01.onlyTest&apos;&#x0D;&#x0A;- Renamed element: &apos;com.test01.onlyTest_array&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;onlyTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.test01{onlyTest.java[onlyTest" matchStrategy="1" name="onlyTest_array" qualified="false" references="true" similarDeclarations="false" stamp="1586241885582" textual="false" version="1.0"/>
+</session>

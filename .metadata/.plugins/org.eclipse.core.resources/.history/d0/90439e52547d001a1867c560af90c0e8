@@ -1,0 +1,23 @@
+package com.onlyTest;
+
+public abstract class AreaImpl implements Area {
+
+	private String result;
+	public AreaImpl() {}
+	
+	
+	
+	@Override
+	public void print() {
+		
+		
+
+	}
+
+	@Override
+	public void make() {
+		
+
+	}
+
+}

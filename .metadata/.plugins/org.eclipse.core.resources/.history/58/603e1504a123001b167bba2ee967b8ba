@@ -1,0 +1,18 @@
+package test06;
+
+public class ArrayList {
+
+	public static void main(String[] args) {
+
+		String[] myList = new String[2];
+		String a = new String("whoohoo");
+		String b = new String("Frog");
+		myList[0] = a;
+		myList[1] = b;
+		
+		int theSize = myList.length;
+		System.out.println("theSize:"+theSize);
+
+	}
+
+}

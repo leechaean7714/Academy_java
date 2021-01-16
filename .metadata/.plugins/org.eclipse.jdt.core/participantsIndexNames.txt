@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+F:\get\Java young\Academy_java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3783888003.index
+\java19_URI_Web\src
+F:\Java¿µÅÂ 1126\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3783888003.index
+\java19_URI_Web\src
+F:\get\Java young\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3783888003.index
+\java19_URI_Web\src

@@ -1,0 +1,52 @@
+package com.test01;
+
+import java.util.Arrays;
+
+public class onlyTest_array {
+
+	public static void main(String[] args) {
+
+
+	
+		/*
+	int [] original = {10,20,30,40,50};
+	int [] copyOne = new int[original.length];
+	
+	for(int i =0;i<original.length;i++) {
+		copyOne[i] = original[i];
+	}
+	
+	System.out.println(Arrays.toString(original));
+	System.out.println(Arrays.toString(copyOne));
+	System.out.println(original);
+	System.out.println(copyOne);
+	
+	copyOne[0] = 100;
+	System.out.println(Arrays.toString(original));
+	System.out.println(Arrays.toString(copyOne));
+	
+	int []copyTwo = original.clone();
+	System.out.println(Arrays.toString(original));
+	System.out.println(Arrays.toString(copyTwo));
+	System.out.println(original==copyTwo);
+	
+	int [] copyThree = new int[5];
+	Arrays.fill(copyThree, 4);
+	
+	System.out.println("1:"+Arrays.toString(copyThree));
+	System.arraycopy(original, 0, copyThree, 2, 2);
+	System.out.println("3:"+Arrays.toString(copyThree));
+	
+	 */
+		
+		int [] original = {10,20,30,40,50};
+		int [] copy = original;
+		
+		System.out.println(Arrays.toString(original));
+		System.out.println(Arrays.toString(copy));
+		
+	
+	
+	}
+
+}

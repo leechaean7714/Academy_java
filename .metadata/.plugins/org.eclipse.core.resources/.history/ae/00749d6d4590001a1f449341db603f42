@@ -1,0 +1,53 @@
+package com.test04;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Map.Entry;
+
+import com.score.Score;
+
+import java.util.Set;
+
+public class MapTest01 { // map은 collection을 상속받고 있지 않기 때문에 put으로 값을 넣어준다.(not add)
+
+	public static void main(String[] args) {
+		
+		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+
+		for (int i = 111; i < 116; i++) {
+			
+			map.put(i, i + 1000);
+		}
+
+		//map.put(112, 1113);
+
+		System.out.println(map);
+		//System.out.println(map.get(112)); // key 값에 맞는 value 리턴
+
+	//	prn(map);
+	}
+
+	private static void prn(Map<Integer, Integer> map) { // entry : key 따로 value 따로
+		Set<Map.Entry<Integer, Integer>> entrySet = map.entrySet(); // Map. 지워도 상관 없음 / .entrySet()->전체 출력하는데 key값과 value 값이 필요한경우 사용한다.
+		/*
+		 * for(Entry<Integer, Integer> entry : entrySet) { 
+		 * if(entry.getValue() == 1113)
+		 * { System.out.println(entry.getKey()); 
+		 * } }
+		 */
+		// iterator를 사용해서 위의 forEach문과 같은 결과를 출력하자.
+
+		Iterator<Entry<Integer, Integer>> ir = entrySet.iterator();
+
+		while (ir.hasNext()) {
+			Entry<Integer, Integer> tmp = ir.next();
+			if (tmp.getValue() == 1113) {
+				System.out.println(ir.next().getKey());
+			}
+
+		}
+
+	}
+
+}
