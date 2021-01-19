@@ -1,2 +1,2 @@
-# academy_java
+# Academy_java
 ### kh정보교육원 자바수업😁
